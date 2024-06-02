@@ -9,7 +9,7 @@ public class Demo {
 		
 		WebDriver driver = new FirefoxDriver();
 		
-		driver.get("https://demo.nopcommerce.com/");
+		driver.get("https://demo.nopcommerce.com/");  //Code run successfully
 		String act_Title = driver.getTitle();
 		if(act_Title.equals("nopCommerce demo store"))
 		{
