@@ -11,7 +11,7 @@ public class Demo {
 		
 		driver.get("https://demo.nopcommerce.com/");  //Code run successfully
 		String act_Title = driver.getTitle();
-		if(act_Title.equals("nopCommerce demo store"))
+		if(act_Title.equals("nopCommerce demo store")) //there is no error
 		{
 			System.out.println("Test passed");
 			
